@@ -1,0 +1,20 @@
+#contoh kode functional programming
+def calculate_sum(lst):
+    return sum(lst)
+
+numbers = [1, 2, 3, 4, 5]
+total = calculate_sum(numbers)
+print(total)
+
+#contoh kode oop
+# membuat class Dog
+class Dog:
+    def _init_(self, name, breed):
+        self.name = name
+        self.breed = breed
+    
+    def bark(self):
+        print("Woof!")
+        
+my_dog = Dog("Fido", "Labrador") # membuat instance dari class Dog
+my_dog.bark() # output: "Woof!" # memanggil method bark()
